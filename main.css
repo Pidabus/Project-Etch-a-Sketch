@@ -1,0 +1,12 @@
+#container {
+    display: flex;
+}
+
+#container div {
+    background: peachpuff;
+    border: 0px;
+    margin: 0px;
+    width: 6.25 vw;
+    height: auto;
+    flex: 1;
+}
