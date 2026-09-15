@@ -1,12 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 #container {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 #container div {
-    background: peachpuff;
-    border: 0px;
-    margin: 0px;
-    width: 6.25 vw;
-    height: auto;
-    flex: 1;
+    background: yellow;
+    border: 2px solid blue;
+    height: 100px;
+    flex: 0 0 20%;
 }
